@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: black;
+    height: 50px;
+    padding: 13px 17px;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#introsec{
+    background: center/cover no-repeat url("./static/dancebgimg.jpg");
+    height: 300px;
+    background-color: red;
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#missionsec {
+    height: 200px;
+    width: 67%;
+    margin: auto;
+    /* font-size: 35px; */
+    
+}
+#missionsec h2{
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    width: 30%;
+    height: 150px;
+    display: inline-block;
+    margin: 13px 13px;
+    border-radius: 10px;
+}
+#sponsorsec{
+    height: 200px;
+    background-color: yellow;
+}
+#sponsorsec h3{
+    text-align: center;
+}
+#footer{
+    height: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    margin: 2px 2px;
+    
+}
+#logo img{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    filter: invert(1);
+}
+.card h3{
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img{
+    height: 100px;
+}
+.card-img img{
+    height: inherit;
+    margin: 15px 5px;
+    margin-left: 2px;
+}
+.card-content{
+    padding: 10px;
+    margin-right:10px;
+}
+.spimage{
+    height: 70px;
+    margin: 20px 20px;
+}
+#sponsor{
+    height: 120px;
+    display: flex;
+    justify-content: center
+}

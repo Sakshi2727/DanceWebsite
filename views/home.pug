@@ -1,0 +1,41 @@
+extends base.pug
+block scripts 
+    include ../static/index.js
+block style 
+    style 
+        include ../static/style.css
+       
+block content   
+    section#introsec 
+            div this is intro section 
+            div eat dance sleep repeat
+    section#missionsec 
+            h2 Our mission
+            div.card 
+                h3 dance perfection
+                div.card-box 
+                    div.card-img
+                        img(src="/static/danceimg1.avif")
+                    div.card-content 
+                        p This is best dance academy of universe
+            div.card 
+                h3 dance the way you like
+                div.card-box 
+                    div.card-img
+                        img(src="/static/danceimg1.avif" )
+                    div.card-content 
+                        p This is best dance academy of universe
+            div.card 
+                h3 dancing is the love of life
+                div.card-box 
+                    div.card-img
+                        img(src="/static/danceimg1.avif")
+                    div.card-content 
+                        p This is best dance academy of universe
+    section#sponsorsec 
+            h3  this is sponsor section 
+            div#sponsor 
+                img(src="/static/applelogo.png" class="spimage")
+                img(src="/static/microsoftlogo.avif" class="spimage")
+                img(src="/static/skypelogo.png" class="spimage")
+                img(src="/static/hplogo.png" class="spimage")
